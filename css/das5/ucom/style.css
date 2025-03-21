@@ -1,0 +1,46 @@
+.darak{
+    position: fixed;
+    top: 30%;
+    right: 0;
+}
+img{
+    width: 30%;
+    float: left;
+    margin-right: 5px;
+}
+.cnox{
+    position: relative;
+}
+.darakner{
+    width: 200px;
+    position: absolute;
+    right: -145px;
+    transition: 1s;
+    padding: 10px;
+}
+.darak1{
+    top: 0;
+}
+.darak2{
+    top: 80px;
+}
+.darak3{
+    top: 160px;
+}
+.darak4{
+    top: 240px;
+}
+.darakner:hover{
+    right: 0;
+}
+.sub{
+    font-size: 18px;
+    font-weight: 400;
+}
+.text{
+    font-size: 11px;
+}
+a{
+    color: #7ebc0a;
+    text-decoration: none;
+}

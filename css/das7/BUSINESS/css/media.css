@@ -1,0 +1,57 @@
+@media screen and (max-width:900px){
+    .menu, .row1-main, .row2_main, .row3, .row4, .row5_main, .foo_main{
+        max-width: 600px;
+    }
+    .row2_imgs3, .row3_child3, .row4_child3{
+        display: none;
+    }
+    .row5_main, .foo_main{
+        flex-wrap: wrap;
+    }
+    .row5_txt, .row5_inp{
+        width: 100%;
+    }  
+}
+
+@media screen and (max-width:768px){
+    .menu, .row1-main, .row2_main, .row3, .row4, .row5_main, .foo_main{
+        max-width: 420px;
+    }
+    .row2_imgs3, .row2_imgs2, .row3_child2, .row3_child3, .row4_child3, .row4_child2{
+        display: none;
+    }
+    .row2_imgs1, .row3_child1, .row4_child1, .foo1{
+        margin: auto;
+    }
+    .foo2, .foo3{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:450px){
+    .row1-main, .row2_main, .row3, .row4, .row5_main, .foo_main{
+        max-width: 320px;
+    }
+    .menu, .row1_right{
+        display: none;
+    }
+    .phone_menu{
+        display: block;
+        color: #4e1e43;
+    }
+    .phone_menu:hover +.menu{
+        display: table-caption;
+    }
+    .row1-left, .row5_txt{
+        margin: 0 auto;
+        width: 80%;
+    }
+    .row5_inp{
+        text-align: center;
+    }
+    .row5_inp button{
+        width: 50%;
+    }
+    .foo1, .foo2 ,.foo3{
+        margin: auto;
+    }
+}
